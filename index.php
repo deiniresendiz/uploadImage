@@ -5,6 +5,7 @@
 	<title>upload image</title>
 </head>
 <body>
+	<a href="viewimage.php">View Images</a>
 	<center>
 		<form action="saveimage.php" method="POST" enctype="multipart/form-data">
 			<input type="text" name="name" placeholder="name image" required>
